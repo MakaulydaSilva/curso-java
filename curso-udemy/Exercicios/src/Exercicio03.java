@@ -8,18 +8,12 @@ public class Exercicio03 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double resultado =  Math.sqrt(Math.PI);
+		double raio = sc.nextDouble();
+	    double resultado = Math.PI * Math.pow(raio, 2);
 		
-		resultado = sc.nextDouble();
+        System.out.printf("A = %.4f%n", resultado);
 		
-	 System.out.println("A = " + resultado);
-		
-		
-		
-		
-		
-
-		
+	
 		sc.close();
 	}
 
