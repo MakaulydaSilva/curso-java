@@ -11,12 +11,13 @@ public class Exercicio03 {
         int gasolina = 0;
         int diesel = 0;
         
-        if (var >= 3) {
-        	System.out.println("Por favor digite um número de 1 á 3.");
-        }
-		
-        while (var != 4) {
-        	if (var == 1 ) {
+		while (var != 4) {
+
+			if (var > 3) {
+				System.out.println("Por favor digite um número de 1 á 3.");
+			}
+			
+			if (var == 1 ) {
         		alcool += 1;
         	}
         	else if (var == 2) {

@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\makau\OneDrive\Documentos\estudos\java\curso-udemy\.metadata\.plugins\org.eclipse.jdt.core
