@@ -10,15 +10,14 @@ public class Ex05 {
 		
 		int n = sc.nextInt();
 		
-		for (int i = 0; i <= n ; i++) {
+		int fat = 1;
+		
+		for (int i = 1; i <= n ; i++) {
 			
-			if(n != 0) {
-				n = n * (n-1) * (n-2) * (n-3) * 1;
-			}
-			else {
-				n = 1;
-			}
+			fat = fat * i;
 		}
+		
+		System.out.println(fat);
 		
 		sc.close();
 
