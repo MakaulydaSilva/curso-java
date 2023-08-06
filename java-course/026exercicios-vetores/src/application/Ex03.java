@@ -55,7 +55,7 @@ public class Ex03 {
 
 		for (int i = 0; i < vect.length; i++) {
 
-			if (vect[i].getIdade() < 16) {
+			if (vect[i].getIdade() < 16) { 
 				System.out.println(vect[i].getPessoa());
 			}
 		}
