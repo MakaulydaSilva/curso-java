@@ -47,6 +47,7 @@ public class Order {
 	
 	public void addItem(OrderItem items) {
 		this.items.add(items);
+		
 	}
 	
 	public void removeItem(OrderItem items) {
@@ -60,6 +61,8 @@ public class Order {
 		}
 		return sum;
 	}
+
+	
 
 	
 }
