@@ -1,6 +1,7 @@
 package entitites;
 
-public class SavingsAccount extends Account{
+//Esta classe não pode ser herdada por outra classe
+public final class SavingsAccount extends Account{
 
 	private Double interesRate;
 	
@@ -26,7 +27,8 @@ public class SavingsAccount extends Account{
 	}
 	
 	@Override
-	public void withdraw(double amount) {
+	//Não permito que o método seja sobreposto com a palavra final
+	public final void withdraw(double amount) {
 		balance -= amount;
 				
 	}
